@@ -14,7 +14,7 @@ if (isset($_GET['show'])) {
     header("Content-Type: image/png");
     $code = $_SESSION['pd-captcha']['code'];
 
-    $img = imagecreatetruecolor(isset($config['height']) ? $config['height'] : 165, isset($config['width']) ? $config['width'] : 60);
+    $img = imagecreatetruecolor(isset($config['width']) ? $config['width'] : 165, isset($config['height']) ? $config['height'] : 60);
     $white = imagecolorallocate($img, 255, 255, 255);
     imagefilledrectangle($img, 0, 0, imagesx($img), imagesy($img), $white);
 
