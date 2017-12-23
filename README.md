@@ -38,3 +38,8 @@ pdCaptchaCreate($config);
 
 # Don't miss
 Must keep captcha.php and font.ttf in the same directory
+
+# Example
+
+![Sample 1](https://github.com/partharajbd/pd-captcha-php/blob/master/samples/sample.JPG?raw=true "Sample 1")
+![Sample 2](https://github.com/partharajbd/pd-captcha-php/blob/master/samples/sample2.JPG?raw=true "Sample 2")
