@@ -6,7 +6,7 @@ if(session_status() == PHP_SESSION_NONE){
  * Library Name : PD Captcha PHP
  * Author       : Partharaj Deb
  * Date         : 23 December 2017
- * Description  : This library is able to create captcha code which can be used in form to improving security.
+ * Description  : This library is able to create captcha code which can be used in form to improve security.
  * Speciality   : It does not generate any image file. All functionality are done in a single file.
  */
 
