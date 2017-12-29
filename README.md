@@ -47,7 +47,7 @@ if ($userInput == pdCaptchaCode()){
 ```
 
 # Options
-If you want to pass your won word and height / width of the captcha image you may use this options _(NOT recommended)_
+If you want to pass your own word and height / width of the captcha image you may use this options _(NOT recommended)_
 ```php
 $config = [
     'height' => 60,
